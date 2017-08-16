@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+  		x:<input type="number" name="x" title="Left" />
+  		y:<input type="number" name="y" title="Top"/>
+  		Fill:<input type="color" value="#000000" name="color"/>
+  		<select>
+    		<option></option>
+    		<option value="rectangle">Rectangle</option>
+    		<option value="circle">Circle</option>
+  		</select>
+  		<label>Animate<input type="checkbox"/></label><br>
+  		<span>
+    		For rectangle: width <input type="number" name="width" title="Introduce the width" />
+    		height <input type="number" name="height" title="Introduce the height"/>
+  		</span>
+  		<div id="dialog" title="Basic dialog">
+  			<p>You can create circles and rectangles here.</p>
+		</div>
+  		<label>
+    		For circle: radius <input type="number" name="radius" title="Introduce the radius"  />
+  		</label><br>
+  		Area: <input type="number" disabled name="area" />
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    	<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
